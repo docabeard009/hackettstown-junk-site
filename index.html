@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">onclick="openModal('Get a Free Quote')"
+<html lang="en">
 <head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NY69VY2XQ2"></script>
@@ -18,7 +18,6 @@
        PRIMARY SEO META TAGS
   ═══════════════════════════════════════════════ -->
   <title>Junk Removal Hackettstown NJ | Same-Day Hauling | Free Quotes</title>
-  <link rel="icon" href="/favicon.ico">
   <meta name="description" content="Top-rated junk removal in Hackettstown, NJ and surrounding areas including Washington, Mount Olive, Allamuchy & Long Valley. Same-day pickup, upfront pricing, eco-friendly disposal. Get a FREE quote in 60 seconds." />
   <meta name="keywords" content="junk removal Hackettstown NJ, junk hauling Hackettstown, furniture removal Warren County NJ, appliance removal Hackettstown, estate cleanout NJ, dumpster alternative Hackettstown, trash hauling Washington NJ, junk pickup Mount Olive NJ, same day junk removal NJ" />
   <meta name="robots" content="index, follow" />
@@ -1012,7 +1011,7 @@
 
   <!-- TOP BAR -->
   <div class="topbar">
-    🚛 Serving Hackettstown & Warren County NJ &nbsp;|&nbsp; <strong>Same-Day Available!</strong> &nbsp;|&nbsp; 📞 <a href="tel:+18622443630" style="font-size:17px; font-weight:900;">(862) 244-3630</a> &nbsp;|&nbsp; <a href="#contact-modal" onclick="openModal(Get a Free Quote)">Get a Free Quote →</a>
+    🚛 Serving Hackettstown & Warren County NJ &nbsp;|&nbsp; <strong>Same-Day Available!</strong> &nbsp;|&nbsp; 📞 <a href="tel:+18622443630" style="font-size:17px; font-weight:900;">(862) 244-3630</a> &nbsp;|&nbsp; <a href="#contact-modal" onclick="openModal()">Get a Free Quote →</a>
   </div>
 
   <!-- NAV -->
@@ -1191,16 +1190,16 @@
 
       <div class="areas-layout">
         <ul class="areas-list">
-          <li>Hackettstown, NJ</li>
-          <li>Washington, NJ</li>
-          <li>Mount Olive, NJ</li>
-          <li>Allamuchy Township</li>
-          <li>Long Valley, NJ</li>
-          <li>Budd Lake, NJ</li>
+          <li><a href="index.html" style="color:var(--white);text-decoration:none">Hackettstown, NJ</a></li>
+          <li><a href="washington-nj.html" style="color:var(--white);text-decoration:none">Washington, NJ</a></li>
+          <li><a href="mount-olive-nj.html" style="color:var(--white);text-decoration:none">Mount Olive, NJ</a></li>
+          <li><a href="allamuchy-nj.html" style="color:var(--white);text-decoration:none">Allamuchy Township</a></li>
+          <li><a href="long-valley-nj.html" style="color:var(--white);text-decoration:none">Long Valley, NJ</a></li>
+          <li><a href="budd-lake-nj.html" style="color:var(--white);text-decoration:none">Budd Lake, NJ</a></li>
           <li>Flanders, NJ</li>
-          <li>Oxford, NJ</li>
-          <li>Belvidere, NJ</li>
-          <li>Phillipsburg, NJ</li>
+          <li><a href="oxford-nj.html" style="color:var(--white);text-decoration:none">Oxford, NJ</a></li>
+          <li><a href="belvidere-nj.html" style="color:var(--white);text-decoration:none">Belvidere, NJ</a></li>
+          <li><a href="phillipsburg-nj.html" style="color:var(--white);text-decoration:none">Phillipsburg, NJ</a></li>
           <li>Hope Township, NJ</li>
           <li>Mansfield Township</li>
           <li>Port Murray, NJ</li>
@@ -1430,13 +1429,15 @@
       <div class="footer-col">
         <h4>Areas Served</h4>
         <ul>
-          <li><a href="#areas">Hackettstown NJ</a></li>
-          <li><a href="#areas">Washington NJ</a></li>
-          <li><a href="#areas">Mount Olive NJ</a></li>
-          <li><a href="#areas">Allamuchy NJ</a></li>
-          <li><a href="#areas">Long Valley NJ</a></li>
-          <li><a href="#areas">Budd Lake NJ</a></li>
-          <li><a href="#areas">Phillipsburg NJ</a></li>
+          <li><a href="index.html">Hackettstown NJ</a></li>
+          <li><a href="washington-nj.html">Washington NJ</a></li>
+          <li><a href="mount-olive-nj.html">Mount Olive NJ</a></li>
+          <li><a href="allamuchy-nj.html">Allamuchy NJ</a></li>
+          <li><a href="long-valley-nj.html">Long Valley NJ</a></li>
+          <li><a href="budd-lake-nj.html">Budd Lake NJ</a></li>
+          <li><a href="phillipsburg-nj.html">Phillipsburg NJ</a></li>
+          <li><a href="belvidere-nj.html">Belvidere NJ</a></li>
+          <li><a href="oxford-nj.html">Oxford NJ</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -1467,7 +1468,7 @@
   <!-- ═══ CONTACT MODAL ═══ -->
   <div class="modal-overlay" id="contactModal" onclick="closeModalOutside(event)">
     <div class="modal-box">
-      <button class="modal-close" onclick="closeModal('Get a Free Quote')">✕</button>
+      <button class="modal-close" onclick="closeModal()">✕</button>
 
       <div class="modal-header">
         <h3 id="modalTitle">Get a Free Quote</h3>
@@ -1501,7 +1502,7 @@
 
         <div class="form-group">
           <label>Your Phone Number *</label>
-          <input type="tel" name="phone" placeholder="(832) 244-3630" required>
+          <input type="tel" name="phone" placeholder="(814) 555-0100" required>
         </div>
 
         <div class="form-group">
@@ -1566,40 +1567,14 @@
   <script>
     /* ── MODAL OPEN / CLOSE ── */
     function openModal(service) {
+      // If service is an event object (from onclick="openModal()"), ignore it
+      if (service && typeof service === 'object') service = null;
+
       const modal = document.getElementById('contactModal');
       modal.classList.add('open');
       document.body.style.overflow = 'hidden';
 
-      // Pre-select the service in the dropdown if passed in
-      if (service) {
-        document.getElementById('modalTitle').textContent = service + ' — Free Quote';
-        document.getElementById('modalService').value = service;
-        const sel = document.getElementById('modalServiceSelect');
-        for (let i = 0; i < sel.options.length; i++) {
-          if (sel.options[i].value === service || sel.options[i].text === service) {
-            sel.selectedIndex = i;
-            break;
-          }
-        }
-      } else {
-        document.getElementById('modalTitle').textContent = 'Get a Free Quote';
-      }
-    }
-
-    function closeModal() {
-      document.getElementById('contactModal').classList.remove('open');
-      document.body.style.overflow = '';
-    }
-
-    function closeModalOutside(e) {
-      if (e.target.id === 'contactModal') closeModal();
-    }
-
-    function openModal(service) {
-      const modal = document.getElementById('contactModal');
-      modal.classList.add('open');
-      document.body.style.overflow = 'hidden';
-      if (service) {
+      if (service && typeof service === 'string') {
         document.getElementById('modalTitle').textContent = service + ' — Free Quote';
         document.getElementById('modalService').value = service;
         const sel = document.getElementById('modalServiceSelect');
@@ -1610,7 +1585,17 @@
         }
       } else {
         document.getElementById('modalTitle').textContent = 'Get a Free Quote';
+        document.getElementById('modalService').value = 'General Inquiry';
       }
+    }
+
+    function closeModal() {
+      document.getElementById('contactModal').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function closeModalOutside(e) {
+      if (e.target.id === 'contactModal') closeModal();
     }
 
     // Close on Escape key
