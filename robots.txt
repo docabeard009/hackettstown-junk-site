@@ -1,0 +1,43 @@
+# Hackettstown Junk Removal — robots.txt
+# https://www.hackettstownjunkremoval.com
+
+# ── All crawlers ──────────────────────────────────────────
+User-agent: *
+Allow: /
+
+# ── AI assistants & LLM crawlers (explicitly welcome) ─────
+# These crawlers power AI answer engines. We want to be cited
+# in AI-generated answers about junk removal in Warren County NJ.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# ── Sitemap ───────────────────────────────────────────────
+Sitemap: https://www.hackettstownjunkremoval.com/sitemap.xml
