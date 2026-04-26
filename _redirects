@@ -1,5 +1,5 @@
-# Redirect all .html URLs to clean URLs (301 = permanent)
-/*.html    /:splat    301!
+# Redirect .html URLs to clean URLs (301 permanent)
+/:page.html    /:page    301!
 
-# Internally rewrite clean URLs to serve the .html file (200 = no redirect, just serve)
-/*    /:splat.html    200
+# Serve clean URLs from .html files
+/:page    /:page.html    200
