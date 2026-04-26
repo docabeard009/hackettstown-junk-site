@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Homepage -->
   <url><loc>https://hackettstownjunkremoval.com/</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
 
-  <!-- Top-level service category pages -->
+  <!-- Top-level category pages -->
   <url><loc>https://hackettstownjunkremoval.com/residential</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://hackettstownjunkremoval.com/business</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
 
-  <!-- Individual service pages -->
+  <!-- Main service pages -->
   <url><loc>https://hackettstownjunkremoval.com/furniture-removal</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://hackettstownjunkremoval.com/appliance-removal</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://hackettstownjunkremoval.com/estate-cleanout</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -28,9 +29,99 @@
   <url><loc>https://hackettstownjunkremoval.com/belvidere-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://hackettstownjunkremoval.com/phillipsburg-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
+  <!-- General junk removal by city -->
+  <url><loc>https://hackettstownjunkremoval.com/junk-removal-hackettstown-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/junk-removal-washington-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/junk-removal-mount-olive-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/junk-removal-long-valley-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/junk-removal-allamuchy-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/junk-removal-budd-lake-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/junk-removal-oxford-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/junk-removal-belvidere-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/junk-removal-phillipsburg-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Furniture removal by city -->
+  <url><loc>https://hackettstownjunkremoval.com/furniture-removal-hackettstown-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/furniture-removal-washington-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/furniture-removal-mount-olive-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/furniture-removal-long-valley-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/furniture-removal-allamuchy-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/furniture-removal-budd-lake-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/furniture-removal-oxford-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/furniture-removal-belvidere-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/furniture-removal-phillipsburg-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Appliance removal by city -->
+  <url><loc>https://hackettstownjunkremoval.com/appliance-removal-hackettstown-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/appliance-removal-washington-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/appliance-removal-mount-olive-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/appliance-removal-long-valley-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/appliance-removal-allamuchy-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/appliance-removal-budd-lake-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/appliance-removal-oxford-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/appliance-removal-belvidere-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/appliance-removal-phillipsburg-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Estate cleanout by city -->
+  <url><loc>https://hackettstownjunkremoval.com/estate-cleanout-hackettstown-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/estate-cleanout-washington-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/estate-cleanout-mount-olive-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/estate-cleanout-long-valley-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/estate-cleanout-allamuchy-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/estate-cleanout-budd-lake-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/estate-cleanout-oxford-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/estate-cleanout-belvidere-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/estate-cleanout-phillipsburg-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Garage cleanout by city -->
+  <url><loc>https://hackettstownjunkremoval.com/garage-cleanout-hackettstown-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/garage-cleanout-washington-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/garage-cleanout-mount-olive-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/garage-cleanout-long-valley-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/garage-cleanout-allamuchy-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/garage-cleanout-budd-lake-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/garage-cleanout-oxford-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/garage-cleanout-belvidere-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/garage-cleanout-phillipsburg-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Basement cleanout by city -->
+  <url><loc>https://hackettstownjunkremoval.com/basement-cleanout-hackettstown-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/basement-cleanout-washington-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/basement-cleanout-mount-olive-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/basement-cleanout-long-valley-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/basement-cleanout-allamuchy-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/basement-cleanout-budd-lake-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/basement-cleanout-oxford-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/basement-cleanout-belvidere-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/basement-cleanout-phillipsburg-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Construction debris removal by city -->
+  <url><loc>https://hackettstownjunkremoval.com/construction-debris-removal-hackettstown-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/construction-debris-removal-washington-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/construction-debris-removal-mount-olive-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/construction-debris-removal-long-valley-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/construction-debris-removal-allamuchy-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/construction-debris-removal-budd-lake-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/construction-debris-removal-oxford-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/construction-debris-removal-belvidere-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/construction-debris-removal-phillipsburg-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Hoarding cleanout by city -->
+  <url><loc>https://hackettstownjunkremoval.com/hoarding-cleanout-hackettstown-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/hoarding-cleanout-washington-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/hoarding-cleanout-mount-olive-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/hoarding-cleanout-long-valley-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/hoarding-cleanout-allamuchy-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/hoarding-cleanout-budd-lake-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/hoarding-cleanout-oxford-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/hoarding-cleanout-belvidere-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/hoarding-cleanout-phillipsburg-nj</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
   <!-- Info pages -->
   <url><loc>https://hackettstownjunkremoval.com/pricing</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://hackettstownjunkremoval.com/coupons</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://hackettstownjunkremoval.com/photos</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/blog</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://hackettstownjunkremoval.com/junk-removal-insider</loc><lastmod>2026-04-26</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 
 </urlset>
