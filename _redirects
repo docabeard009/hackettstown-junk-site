@@ -1,5 +1,1 @@
-# Redirect .html URLs to clean URLs (301 permanent)
-/:page.html    /:page    301!
-
-# Serve clean URLs from .html files
 /:page    /:page.html    200
