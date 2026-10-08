@@ -419,392 +419,44 @@
   <!-- PAGE HERO -->
   <div class="page-hero">
     <p class="section-label">Our Work in Action</p>
-    <h1>Real Jobs. Real <span>Results.</span><br>Hackettstown, NJ</h1>
-    <p>Browse photos from actual junk removal jobs across Hackettstown, Warren County, and surrounding NJ communities. Every photo is a real job completed by our crew.</p>
+    <h1>Job photos. <span>Real loads.</span></h1>
+    <p>Photos from jobs the crew has hauled: driveway piles, patio furniture, shed tear-outs, and loaded trucks. Not stock photos.</p>
     <a href="index.html#quote" style="display:inline-block; background:var(--orange); color:var(--black); font-family:'Barlow Condensed',sans-serif; font-weight:800; font-size:17px; letter-spacing:.08em; text-transform:uppercase; padding:14px 34px; border-radius:3px; text-decoration:none; transition:background 0.2s;">Get a Free Quote →</a>
   </div>
 
-  <!-- FILTER BAR -->
-  <div class="filter-bar">
-    <button class="filter-btn active" onclick="filterGallery('all', this)">All Jobs</button>
-    <button class="filter-btn" onclick="filterGallery('furniture', this)">🛋️ Furniture</button>
-    <button class="filter-btn" onclick="filterGallery('appliances', this)">🧺 Appliances</button>
-    <button class="filter-btn" onclick="filterGallery('estate', this)">🏠 Estate Cleanouts</button>
-    <button class="filter-btn" onclick="filterGallery('construction', this)">🔨 Construction Debris</button>
-    <button class="filter-btn" onclick="filterGallery('yard', this)">🌿 Yard Waste</button>
-    <button class="filter-btn" onclick="filterGallery('hottub', this)">🛁 Hot Tubs & Sheds</button>
-    <button class="filter-btn" onclick="filterGallery('electronics', this)">💻 E-Waste</button>
-    <button class="filter-btn" onclick="filterGallery('storage', this)">📦 Storage Units</button>
-    <button class="filter-btn" onclick="filterGallery('office', this)">🏢 Office/Commercial</button>
-  </div>
-
-  <!-- GALLERY -->
   <div class="gallery-section">
-
-    <!-- ── FURNITURE REMOVAL ── -->
-    <div class="cat-group fade-in" data-category="furniture">
-      <div class="category-heading">
-        <span class="cat-icon">🛋️</span>
-        <h2 class="cat-title">Furniture <span>Removal</span></h2>
-        <div class="cat-line"></div>
-        <span class="cat-count">Hackettstown & Warren County, NJ</span>
+    <div class="photo-grid">
+      <div class="photo-card" onclick="openLightbox(this)" data-caption="Driveway haul: mattress, bike, and household junk" data-location="Recent job">
+        <img src="/photos/driveway-haul.webp" alt="Mattress, bike, and junk piled in a driveway before pickup">
+        <div class="photo-badge">Job</div>
+        <div class="photo-overlay"><div class="photo-label">Driveway haul</div><div class="photo-meta">Mattress, bike, and household junk</div></div>
       </div>
-      <div class="photo-grid">
-        <div class="photo-card wide" onclick="openLightbox(this)" data-caption="Full furniture haul — living room cleanout" data-location="Hackettstown, NJ">
-          <img src="https://firstclassjunkremoval.com/wp-content/uploads/2023/07/Junk-Removal-Hauling-Services-1080x400.jpg" alt="Junk removal truck loaded with furniture in Hackettstown NJ" onerror="imgFallback(this,'🛋️','Furniture Removal')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Living Room Full Cleanout</div>
-            <div class="photo-meta">Hackettstown, NJ · Truck fully loaded, same day</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Sofa & sectional removal — Hackettstown home" data-location="Hackettstown, NJ">
-          <img src="https://www.woodinvillejunkremoval.com/wp-content/uploads/2022/07/furniture-removal-woodinville.jpg" alt="Sofa removal hauling NJ" onerror="imgFallback(this,'🛋️','Sofa Removal')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Sofa & Sectional Removal</div>
-            <div class="photo-meta">Washington, NJ · 2-hour job</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Bedroom set & mattress removed — Warren County" data-location="Warren County, NJ">
-          <img src="https://justawayhauling.com/wp-content/uploads/2022/08/junk-removal-haul-away-clean-out.jpg" alt="Furniture removal cleanout Warren County NJ" onerror="imgFallback(this,'🛋️','Bedroom Set Removal')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Bedroom Set & Mattress</div>
-            <div class="photo-meta">Allamuchy, NJ · Donated to local charity</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Multiple pieces, full truck — Long Valley NJ" data-location="Long Valley, NJ">
-          <img src="https://www.rickeypark.com/wp-content/uploads/2023/05/Furniture-Removal-Truck.jpg" alt="Furniture hauling truck Long Valley NJ" onerror="imgFallback(this,'🛋️','Full Truck Load')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Full Truckload — Mixed Furniture</div>
-            <div class="photo-meta">Long Valley, NJ · Estate cleanout prep</div>
-          </div>
-        </div>
+      <div class="photo-card" onclick="openLightbox(this)" data-caption="Patio furniture set ready for pickup" data-location="Recent job">
+        <img src="/photos/patio-set.webp" alt="Patio chairs and table set out for junk removal">
+        <div class="photo-badge">Job</div>
+        <div class="photo-overlay"><div class="photo-label">Patio set</div><div class="photo-meta">Chairs, table, and lounges</div></div>
+      </div>
+      <div class="photo-card" onclick="openLightbox(this)" data-caption="Shed roof and framing torn down for haul-away" data-location="Recent job">
+        <img src="/photos/shed-demo.webp" alt="Crew pulling apart a shed roof for debris removal">
+        <div class="photo-badge">Job</div>
+        <div class="photo-overlay"><div class="photo-label">Shed tear-out</div><div class="photo-meta">Roof, framing, and debris</div></div>
+      </div>
+      <div class="photo-card" onclick="openLightbox(this)" data-caption="Patio demo debris stacked for removal" data-location="Recent job">
+        <img src="/photos/patio-debris.webp" alt="Construction panels and debris stacked on a patio">
+        <div class="photo-badge">Job</div>
+        <div class="photo-overlay"><div class="photo-label">Patio debris</div><div class="photo-meta">Panels, frame, and tools left for pickup</div></div>
+      </div>
+      <div class="photo-card wide" onclick="openLightbox(this)" data-caption="Loaded trailer after a cleanout" data-location="Recent job">
+        <img src="/photos/trailer-load.webp" alt="Trailer loaded with furniture and junk behind a pickup">
+        <div class="photo-badge">Loaded</div>
+        <div class="photo-overlay"><div class="photo-label">Trailer load</div><div class="photo-meta">Furniture and household junk</div></div>
+      </div>
+      <div class="photo-card wide" onclick="openLightbox(this)" data-caption="Truck bed loaded with brush, metal, and debris" data-location="Recent job">
+        <img src="/photos/truck-load.webp" alt="Truck bed full of brush, wood, and debris">
+        <div class="photo-badge">Loaded</div>
+        <div class="photo-overlay"><div class="photo-label">Truck load</div><div class="photo-meta">Brush, wood, and metal</div></div>
       </div>
     </div>
-
-    <!-- ── APPLIANCE REMOVAL ── -->
-    <div class="cat-group fade-in" data-category="appliances">
-      <div class="category-heading">
-        <span class="cat-icon">🧺</span>
-        <h2 class="cat-title">Appliance <span>Removal</span></h2>
-        <div class="cat-line"></div>
-        <span class="cat-count">Warren & Morris County, NJ</span>
-      </div>
-      <div class="photo-grid">
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Refrigerator removal — hauled from kitchen, Hackettstown NJ" data-location="Hackettstown, NJ">
-          <img src="https://englishhauling.com/wp-content/uploads/2022/04/Refrigerator.jpg" alt="Refrigerator removal Hackettstown NJ" onerror="imgFallback(this,'🧊','Refrigerator Removal')">
-          <div class="photo-badge">During</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Refrigerator Haul-Away</div>
-            <div class="photo-meta">Hackettstown, NJ · Proper refrigerant disposal</div>
-          </div>
-        </div>
-        <div class="photo-card wide" onclick="openLightbox(this)" data-caption="Washer, dryer & appliance set removed — Mount Olive NJ" data-location="Mount Olive, NJ">
-          <img src="https://sonomastronghauling.com/wp-content/uploads/2023/01/Appliance-Removal-1-scaled.jpg" alt="Appliance removal washer dryer NJ" onerror="imgFallback(this,'🧺','Appliance Removal')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Washer, Dryer & Appliance Set</div>
-            <div class="photo-meta">Mount Olive, NJ · Same-day pickup</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Multiple appliance removal — Oxford NJ home" data-location="Oxford, NJ">
-          <img src="https://www.getridofitjunk.com/wp-content/uploads/2022/07/appliance-removal-orange-county-ny.jpg" alt="Multiple appliance removal NJ" onerror="imgFallback(this,'🧺','Multi-Appliance Job')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">4-Appliance Removal</div>
-            <div class="photo-meta">Oxford, NJ · Rental property cleanout</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Old fridge removed curbside — Budd Lake NJ" data-location="Budd Lake, NJ">
-          <img src="https://actionjunkhauling.com/wp-content/uploads/2021/08/refrigerator-removal-service.jpg" alt="Fridge removal Budd Lake NJ" onerror="imgFallback(this,'🧊','Fridge Removal')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Old Fridge & Freezer</div>
-            <div class="photo-meta">Budd Lake, NJ · Eco-certified disposal</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ── ESTATE CLEANOUTS ── -->
-    <div class="cat-group fade-in" data-category="estate">
-      <div class="category-heading">
-        <span class="cat-icon">🏠</span>
-        <h2 class="cat-title">Estate & House <span>Cleanouts</span></h2>
-        <div class="cat-line"></div>
-        <span class="cat-count">Full-Property Cleanouts, NJ</span>
-      </div>
-      <div class="photo-grid">
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Full estate cleanout before — Hackettstown NJ property" data-location="Hackettstown, NJ">
-          <img src="https://toomuchjunk.com/wp-content/uploads/2022/06/property-cleanout.jpg" alt="Estate cleanout before Hackettstown NJ" onerror="imgFallback(this,'📦','Before — Estate')">
-          <div class="photo-badge before">Before</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Estate Cleanout — Before</div>
-            <div class="photo-meta">Hackettstown, NJ · Full house clear</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Estate cleanout complete — property ready for sale" data-location="Washington, NJ">
-          <img src="https://www.dennisonestatecleanout.com/wp-content/uploads/2019/09/dennison-estate-clean-out.jpg" alt="Estate cleanout complete Washington NJ" onerror="imgFallback(this,'🏠','After — Estate')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Estate Cleanout — After</div>
-            <div class="photo-meta">Washington, NJ · Ready for listing</div>
-          </div>
-        </div>
-        <div class="photo-card wide" onclick="openLightbox(this)" data-caption="Hoarding cleanout — full property clear, South Jersey style" data-location="Warren County, NJ">
-          <img src="https://www.mastertechenvironmental.com/wp-content/uploads/2019/09/junk-removal-south-jersey-1.jpg" alt="Full estate hoarding cleanout Warren County NJ" onerror="imgFallback(this,'🏚️','Full Cleanout')">
-          <div class="photo-badge before">Before</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Full Property Cleanout</div>
-            <div class="photo-meta">Warren County, NJ · 2-truck job, 1 day</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="House cleared, broom clean — ready for next owner" data-location="Allamuchy, NJ">
-          <img src="https://i.ytimg.com/vi/K2o1wzc0GBM/maxresdefault.jpg" alt="Before after estate cleanout NJ" onerror="imgFallback(this,'🏠','Before & After')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Before & After — Estate Clear</div>
-            <div class="photo-meta">Allamuchy, NJ · Broom-clean finish</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ── CONSTRUCTION DEBRIS ── -->
-    <div class="cat-group fade-in" data-category="construction">
-      <div class="category-heading">
-        <span class="cat-icon">🔨</span>
-        <h2 class="cat-title">Construction <span>Debris Removal</span></h2>
-        <div class="cat-line"></div>
-        <span class="cat-count">Renovation & Demo Waste, NJ</span>
-      </div>
-      <div class="photo-grid">
-        <div class="photo-card wide" onclick="openLightbox(this)" data-caption="Construction debris hauled after kitchen reno — Hackettstown NJ" data-location="Hackettstown, NJ">
-          <img src="https://www.sanjoseyardcleanup.com/wp-content/uploads/2021/09/construction-debris-hauling.jpg" alt="Construction debris hauling Hackettstown NJ" onerror="imgFallback(this,'🔨','Construction Debris')">
-          <div class="photo-badge">During</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Kitchen Renovation Debris</div>
-            <div class="photo-meta">Hackettstown, NJ · Drywall, tile, flooring</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Lumber, drywall & renovation waste — Mount Olive NJ" data-location="Mount Olive, NJ">
-          <img src="https://www.wastedisposal.co.uk/wp-content/uploads/2022/08/construction-waste-removal.jpg" alt="Renovation waste removal NJ" onerror="imgFallback(this,'🧱','Renovation Waste')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Renovation Waste — Full Load</div>
-            <div class="photo-meta">Mount Olive, NJ · Next-day service</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Post-renovation debris cleanout — Warren County NJ" data-location="Warren County, NJ">
-          <img src="https://justawayhauling.com/wp-content/uploads/2022/08/junk-removal-haul-away-clean-out.jpg" alt="Post-renovation debris NJ" onerror="imgFallback(this,'🔨','Demo Debris')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Post-Demo Cleanout</div>
-            <div class="photo-meta">Flanders, NJ · Contractor referral</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Roofing shingles & construction waste — Belvidere NJ" data-location="Belvidere, NJ">
-          <img src="https://www.weinerhauling.com/wp-content/uploads/2021/07/construction-debris-hauling.jpg" alt="Construction waste removal Belvidere NJ" onerror="imgFallback(this,'🏗️','Roofing Debris')">
-          <div class="photo-badge">During</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Roofing & Construction Waste</div>
-            <div class="photo-meta">Belvidere, NJ · Multiple load job</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ── YARD WASTE ── -->
-    <div class="cat-group fade-in" data-category="yard">
-      <div class="category-heading">
-        <span class="cat-icon">🌿</span>
-        <h2 class="cat-title">Yard Waste <span>& Brush Removal</span></h2>
-        <div class="cat-line"></div>
-        <span class="cat-count">Landscape Debris, NJ</span>
-      </div>
-      <div class="photo-grid">
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Brush pile cleared — Hackettstown property cleanup" data-location="Hackettstown, NJ">
-          <img src="https://www.maplebluff.org/sites/default/files/styles/large/public/2022-04/yard-waste.jpg" alt="Yard waste brush removal Hackettstown NJ" onerror="imgFallback(this,'🌿','Brush Removal')">
-          <div class="photo-badge before">Before</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Overgrown Brush Pile</div>
-            <div class="photo-meta">Hackettstown, NJ · Spring cleanup</div>
-          </div>
-        </div>
-        <div class="photo-card wide" onclick="openLightbox(this)" data-caption="Yard waste and branches hauled — Allamuchy Township" data-location="Allamuchy, NJ">
-          <img src="https://www.georgiaclearing.com/wp-content/uploads/2022/06/debris-brush-removal.jpg" alt="Brush and yard waste removal NJ" onerror="imgFallback(this,'🌳','Yard Debris')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Branch & Brush Haul-Away</div>
-            <div class="photo-meta">Allamuchy, NJ · Full yard cleared</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Seasonal yard cleanup — Mount Olive NJ" data-location="Mount Olive, NJ">
-          <img src="https://www.brushpileremoval.com/wp-content/uploads/2023/04/how-much-brush-pile.jpg" alt="Yard cleanup Mount Olive NJ" onerror="imgFallback(this,'🍂','Seasonal Cleanup')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Seasonal Yard Cleanup</div>
-            <div class="photo-meta">Mount Olive, NJ · Leaves, stumps & branches</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ── HOT TUB & SHED ── -->
-    <div class="cat-group fade-in" data-category="hottub">
-      <div class="category-heading">
-        <span class="cat-icon">🛁</span>
-        <h2 class="cat-title">Hot Tub & <span>Shed Removal</span></h2>
-        <div class="cat-line"></div>
-        <span class="cat-count">Outdoor Structure Demo, NJ</span>
-      </div>
-      <div class="photo-grid">
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Hot tub removal — disassembled and hauled, Hackettstown NJ" data-location="Hackettstown, NJ">
-          <img src="https://www.junkremovaldemolition.com/wp-content/uploads/2021/06/hot-tub-removal-service.jpg" alt="Hot tub removal Hackettstown NJ" onerror="imgFallback(this,'🛁','Hot Tub Removal')">
-          <div class="photo-badge before">Before</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Hot Tub — Before Removal</div>
-            <div class="photo-meta">Hackettstown, NJ · Full disassembly</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Hot tub cut apart and removed from backyard — NJ" data-location="Washington, NJ">
-          <img src="https://www.junkremovaldemolition.com/wp-content/uploads/2021/06/hot-tub-removal-1.jpg" alt="Hot tub disassembly NJ" onerror="imgFallback(this,'🛁','Disassembly')">
-          <div class="photo-badge">During</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Hot Tub Disassembly</div>
-            <div class="photo-meta">Washington, NJ · Cut-down removal method</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Spa removed, yard cleared — Long Valley NJ" data-location="Long Valley, NJ">
-          <img src="https://sunnysidejunkhauling.com/wp-content/uploads/2022/07/hot-tub-removal-portland.jpg" alt="Spa removal Long Valley NJ" onerror="imgFallback(this,'🛁','Spa Removed')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Spa & Deck Haul-Away</div>
-            <div class="photo-meta">Long Valley, NJ · Clean yard after</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Jacuzzi removed from deck — Phillipsburg NJ" data-location="Phillipsburg, NJ">
-          <img src="https://www.aaahaulingventura.com/wp-content/uploads/2021/03/hot-tub-demolition.jpg" alt="Hot tub demolition Phillipsburg NJ" onerror="imgFallback(this,'🛁','Hot Tub Demo')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Jacuzzi Deck Removal</div>
-            <div class="photo-meta">Phillipsburg, NJ · Deck boards too</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ── E-WASTE ── -->
-    <div class="cat-group fade-in" data-category="electronics">
-      <div class="category-heading">
-        <span class="cat-icon">💻</span>
-        <h2 class="cat-title">Electronics <span>& E-Waste Removal</span></h2>
-        <div class="cat-line"></div>
-        <span class="cat-count">Certified Recycling, NJ</span>
-      </div>
-      <div class="photo-grid">
-        <div class="photo-card wide" onclick="openLightbox(this)" data-caption="TV, computers & e-waste recycled — Hackettstown NJ pickup" data-location="Hackettstown, NJ">
-          <img src="https://www.dumpsters.com/blog/wp-content/uploads/2022/10/how-to-dispose-of-electronics.jpg" alt="Electronics e-waste removal Hackettstown NJ" onerror="imgFallback(this,'📺','E-Waste Pickup')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">TV & Computer Haul-Away</div>
-            <div class="photo-meta">Hackettstown, NJ · Certified e-waste recycling</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="E-waste pile cleared — TVs, monitors & old electronics" data-location="Warren County, NJ">
-          <img src="https://junkrun.co.nz/wp-content/uploads/2022/04/e-waste-tv-computers.jpg" alt="E-waste TV computers removal NJ" onerror="imgFallback(this,'📺','TV Removal')">
-          <div class="photo-badge before">Before</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Electronics Pile Cleared</div>
-            <div class="photo-meta">Warren County, NJ · Office upgrade</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Responsible electronics disposal — no NJ landfill" data-location="Mount Olive, NJ">
-          <img src="https://www.wired.com/wp-content/uploads/2022/08/GettyImages-1309252241.jpg" alt="Responsible electronics recycling NJ" onerror="imgFallback(this,'♻️','Eco Recycling')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Responsible E-Waste Disposal</div>
-            <div class="photo-meta">Mount Olive, NJ · Zero landfill guarantee</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ── STORAGE UNIT CLEANOUTS ── -->
-    <div class="cat-group fade-in" data-category="storage">
-      <div class="category-heading">
-        <span class="cat-icon">📦</span>
-        <h2 class="cat-title">Storage Unit <span>Cleanouts</span></h2>
-        <div class="cat-line"></div>
-        <span class="cat-count">Warren County Storage Facilities, NJ</span>
-      </div>
-      <div class="photo-grid">
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Packed storage unit — before our crew arrived" data-location="Hackettstown, NJ">
-          <img src="https://aroundtownjunkremoval.com/wp-content/uploads/2023/03/junk-removal-services.jpg" alt="Storage unit cleanout before Hackettstown NJ" onerror="imgFallback(this,'📦','Storage Before')">
-          <div class="photo-badge before">Before</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Storage Unit — Before</div>
-            <div class="photo-meta">Hackettstown, NJ · 10x20 unit</div>
-          </div>
-        </div>
-        <div class="photo-card wide" onclick="openLightbox(this)" data-caption="Storage unit emptied and swept clean — same day job" data-location="Warren County, NJ">
-          <img src="https://houstonjunkmovers.com/wp-content/uploads/2022/08/storage-unit-cleanout.jpg" alt="Storage unit emptied Warren County NJ" onerror="imgFallback(this,'📦','Storage After')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Storage Unit — After</div>
-            <div class="photo-meta">Warren County, NJ · Swept & empty</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Items sorted — donate, recycle, dispose — Long Valley NJ" data-location="Long Valley, NJ">
-          <img src="https://newspacejunk.com/wp-content/uploads/2022/06/storage-unit-cleanout.jpg" alt="Storage unit junk sorting Long Valley NJ" onerror="imgFallback(this,'♻️','Sorted & Cleared')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Sort, Donate & Haul</div>
-            <div class="photo-meta">Long Valley, NJ · 40% donated to charity</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ── OFFICE / COMMERCIAL ── -->
-    <div class="cat-group fade-in" data-category="office">
-      <div class="category-heading">
-        <span class="cat-icon">🏢</span>
-        <h2 class="cat-title">Office & <span>Commercial Removal</span></h2>
-        <div class="cat-line"></div>
-        <span class="cat-count">Business & Commercial, NJ</span>
-      </div>
-      <div class="photo-grid">
-        <div class="photo-card wide" onclick="openLightbox(this)" data-caption="Office furniture removal — commercial buildout Hackettstown NJ" data-location="Hackettstown, NJ">
-          <img src="https://jdogjunkremoval.com/wp-content/uploads/2021/09/jdog-services.jpg" alt="Office commercial junk removal Hackettstown NJ" onerror="imgFallback(this,'🏢','Office Removal')">
-          <div class="photo-badge">During</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Office Furniture Cleanout</div>
-            <div class="photo-meta">Hackettstown, NJ · Tenant move-out</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Commercial office junk — desks, chairs, filing cabinets removed" data-location="Washington, NJ">
-          <img src="https://www.officerubbish.com.au/wp-content/uploads/2022/07/office-rubbish-removal.jpg" alt="Commercial office removal NJ" onerror="imgFallback(this,'🗄️','Desk Removal')">
-          <div class="photo-badge before">Before</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Desks, Chairs & Cubicles</div>
-            <div class="photo-meta">Washington, NJ · Full office clear</div>
-          </div>
-        </div>
-        <div class="photo-card" onclick="openLightbox(this)" data-caption="Commercial junk removal complete — space restored" data-location="Mount Olive, NJ">
-          <img src="https://wildfirejunkremoval.com/wp-content/uploads/2022/04/commercial-junk-removal.jpg" alt="Commercial removal complete Mount Olive NJ" onerror="imgFallback(this,'🏢','Job Complete')">
-          <div class="photo-badge">After</div>
-          <div class="photo-overlay">
-            <div class="photo-label">Commercial Space — After</div>
-            <div class="photo-meta">Mount Olive, NJ · Ready for new tenant</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div><!-- /gallery-section -->
 
   <!-- CTA STRIP -->
