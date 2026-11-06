@@ -4,7 +4,8 @@
 /business.html    /business    301!
 /photos.html    /photos    301!
 /pricing.html    /pricing    301!
-/coupons.html    /coupons    301!
+/coupons.html    /    301!
+/coupons    /    301!
 /blog.html    /blog    301!
 /junk-removal-insider.html    /junk-removal-insider    301!
 /hackettstown.html    /hackettstown    301!
