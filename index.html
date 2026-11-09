@@ -1013,6 +1013,22 @@
       *, *::before, *::after { transition: none !important; animation: none !important; }
       html { scroll-behavior: auto; }
     }
+
+    /* ── WELCOME VIDEO ── */
+    #welcome-video { background: var(--ink); padding-top: 96px; padding-bottom: 96px; }
+    #welcome-video .wv-grid { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.5fr); gap: 56px; align-items: center; }
+    #welcome-video .section-label { color: var(--brass); }
+    #welcome-video .section-sub { margin-bottom: 28px; }
+    .wv-points { list-style: none; display: grid; gap: 12px; color: var(--bone); font-size: 15px; }
+    .wv-points li { display: flex; gap: 12px; align-items: baseline; }
+    .wv-points li::before { content: ""; flex: 0 0 18px; height: 2px; background: var(--brass); position: relative; top: -4px; }
+    .wv-frame { position: relative; border: 1px solid var(--line-dark); padding: 10px; background: #0d0d0d; }
+    .wv-frame video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; }
+    @media (max-width: 900px) {
+      #welcome-video { padding-top: 64px; padding-bottom: 64px; }
+      #welcome-video .wv-grid { grid-template-columns: 1fr; gap: 32px; }
+      #welcome-video .wv-media { order: -1; }
+    }
   </style>
 </head>
 
@@ -1138,6 +1154,33 @@
     <div class="trust-item"><span class="trust-icon">🤝</span> Free No-Obligation Quote</div>
     <div class="trust-item"><span class="trust-icon">⭐</span> Warren County and Morris County's Trusted Haulers</div>
   </div>
+
+  <!-- ═══ WELCOME VIDEO ═══ -->
+  <section id="welcome-video" aria-labelledby="wv-title">
+    <div class="section-inner wv-grid">
+      <div class="wv-copy">
+        <p class="section-label">Welcome</p>
+        <h2 id="wv-title">Glad You're <span>Here</span></h2>
+        <p class="section-sub">Watch a quick 30-second intro to how it works. You get matched with one local hauler, not a dozen companies calling your phone.</p>
+        <ul class="wv-points">
+          <li>One hauler, one point of contact</li>
+          <li>Local to Hackettstown, Warren and Morris County</li>
+          <li>Upfront pricing and respectful service</li>
+        </ul>
+      </div>
+      <div class="wv-media">
+        <div class="wv-frame">
+          <video controls playsinline preload="metadata" poster="video/welcome-poster.jpg" width="1280" height="720">
+            <source src="video/welcome-video.mp4" type="video/mp4" />
+            Your browser doesn't support video. <a href="video/welcome-video.mp4">Download the welcome video</a>.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"VideoObject","name":"Welcome to Hackettstown Junk Removal","description":"A 30-second intro: we match you with one local junk hauler who knows the Hackettstown area, not a list of companies.","thumbnailUrl":"https://hackettstownjunkremoval.com/video/welcome-poster.jpg","contentUrl":"https://hackettstownjunkremoval.com/video/welcome-video.mp4","uploadDate":"2026-11-09","duration":"PT32S"}
+  </script>
 
   <!-- ═══ SERVICES ═══ -->
   <section id="services">
